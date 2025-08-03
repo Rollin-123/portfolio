@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tianga TCHOUABOU | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Tianga<span>Dev</span></a>
+                <ul class="nav-links">
+                    <li><a href="#hero" class="nav-link active" data-section="hero">Accueil</a></li>
+                    <li><a href="#about" class="nav-link" data-section="about">À propos</a></li>
+                    <li><a href="#skills" class="nav-link" data-section="skills">Compétences</a></li>
+                    <li><a href="#projects" class="nav-link" data-section="projects">Projets</a></li>
+                    <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="sections-container">
+        <!-- Hero Section -->
+        <section id="hero" class="active">
+            <div class="container">
+                <div class="section-content">
+                    <h1>Bonjour, je suis <span class="hero-highlight">Tianga TCHOUABOU</span></h1>
+                    <p class="hero-subtitle">Développeur Frontend Angular basé à Minsk, Biélorussie</p>
+                    <p>Je transforme des idées complexes en interfaces web élégantes et performantes avec Angular, en combinant créativité et expertise technique.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn nav-link" data-section="projects">Voir mes projets</a>
+                        <a href="#contact" class="btn btn-secondary nav-link" data-section="contact">Me contacter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="section-content">
+                    <h2>À propos de moi</h2>
+                        <div class="about-text">
+                            <h3>Qui suis-je?</h3>
+                            <p>Je m'appelle Tianga TCHOUABOU Loic Rollin, né le 12 mars 2000 à Douala, Cameroun. Je vis actuellement à Minsk en Biélorussie où je poursuis mes études en informatique tout en travaillant comme développeur web frontend spécialisé en Angular.</p>
+                            <p>Passionné par la création d'interfaces utilisateur intuitives et performantes, je combine mon expertise technique avec une approche créative pour résoudre des problèmes complexes et offrir des expériences utilisateur exceptionnelles.</p>
+                            <p>Lorsque je ne code pas, j'aime explorer les nouvelles technologies, participer à des hackathons et contribuer à des projets open source.</p>
+                            
+                            <div class="info-grid">
+                                <div class="info-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div>
+                                        <h4>Localisation</h4>
+                                        <p>Minsk, Biélorussie</p>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <div>
+                                        <h4>Éducation</h4>
+                                        <p>Informatique - Université de Minsk</p>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-language"></i>
+                                    <div>
+                                        <h4>Langues</h4>
+                                        <p>Français, Anglais, Russe</p>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-laptop-code"></i>
+                                    <div>
+                                        <h4>Spécialité</h4>
+                                        <p>Frontend - Angular</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <div class="section-content">
+                    <h2>Mes Compétences</h2>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h3><i class="fab fa-html5"></i> Frontend</h3>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>HTML5 / CSS3</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width:95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>JavaScript (ES6+)</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width:90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Angular</span>
+                                    <span>92%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width:92%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>TypeScript</span>
+                                    <span>88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width:88%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3><i class="fas fa-paint-brush"></i> Design & Outils</h3>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Sass / SCSS</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width:85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Bootstrap</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width:90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Tailwind CSS</span>
+                                    <span>82%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width:82%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Responsive Design</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width:95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3><i class="fas fa-server"></i> Backend & DevOps</h3>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Node.js</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width:80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Git & GitHub</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width:90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Netlify</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width:85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Intégration IA</span>
+                                    <span>78%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width:78%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <div class="section-content">
+                    <h2>Mes Projets Récents</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projet Angular">
+                            </div>
+                            <div class="project-content">
+                                <h3>Application E-commerce Angular</h3>
+                                <p>Plateforme e-commerce complète avec panier, authentification et paiement, développée avec Angular et Firebase.</p>
+                                <div class="project-links">
+                                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Voir sur Netlify</a>
+                                    <a href="#" target="_blank"><i class="fab fa-github"></i> Code GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projet Dashboard">
+                            </div>
+                            <div class="project-content">
+                                <h3>Tableau de bord d'analytique</h3>
+                                <p>Dashboard interactif de visualisation de données avec graphiques en temps réel et personnalisation de l'interface.</p>
+                                <div class="project-links">
+                                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Voir sur Netlify</a>
+                                    <a href="#" target="_blank"><i class="fab fa-github"></i> Code GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projet Portfolio">
+                            </div>
+                            <div class="project-content">
+                                <h3>Portfolio Artistique</h3>
+                                <p>Site portfolio élégant pour un artiste, avec galerie interactive, animations personnalisées et design responsive.</p>
+                                <div class="project-links">
+                                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Voir sur Netlify</a>
+                                    <a href="#" target="_blank"><i class="fab fa-github"></i> Code GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projet Application">
+                            </div>
+                            <div class="project-content">
+                                <h3>Application de Gestion de Tâches</h3>
+                                <p>Application de productivité avec fonctionnalités de collaboration en temps réel, notifications et synchronisation cloud.</p>
+                                <div class="project-links">
+                                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Voir sur Netlify</a>
+                                    <a href="#" target="_blank"><i class="fab fa-github"></i> Code GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <div class="section-content">
+                    <h2>Contactez-moi</h2>
+                    <div class="contact-container">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p>contact@tianga-dev.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h3>Localisation</h3>
+                                    <p>Minsk, Biélorussie</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h3>Téléphone</h3>
+                                    <p>+375 29 XXX XX XX</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h3>Disponibilité</h3>
+                                    <p>Lun - Ven: 9h - 18h (GMT+3)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-form">
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Votre nom" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" placeholder="Votre email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Sujet" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea placeholder="Votre message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn">Envoyer le message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Swipe Indicator for Mobile -->
+    <div class="swipe-indicator">
+        <i class="fas fa-arrow-left"></i>
+        Glisser pour naviguer
+        <i class="fas fa-arrow-right"></i>
+    </div>
+
+    <!-- Footer -->
+    <!-- <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">© 2023 Tianga TCHOUABOU Loic Rollin. Tous droits réservés.</p>
+        </div>
+    </footer> -->
+
+    <script src="/script.js"></script>
+</body>
+</html>
